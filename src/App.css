@@ -1,0 +1,29 @@
+#headerNavbar {
+  background-image: url("https://thumbs.dreamstime.com/b/planeta-tierra-y-sat%C3%A9lite-lunar-sobre-fondo-oscuro-relaci%C3%B3n-de-aspecto-elementos-del-sistema-solar-banner-con-vista-copio-232536156.jpg");
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+}
+#buskdor {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+#mycard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: space-between;
+  justify-items: center;
+  margin: auto;
+  margin-top: 5px;
+}
+@media (max-width: 1280px) {
+  .mycard {
+    width: 18rem !important;
+    align-items: center;
+  }
+  .card img {
+    width: 15rem;
+  }
+}
